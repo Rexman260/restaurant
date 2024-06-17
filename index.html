@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Red Chilly</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Our Restaurant</h2>
+            <p>Experience the best dining with us.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Delicious pizza with fresh ingredients.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/burger.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Juicy burgers with a variety of toppings.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/pasta.jpg" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>Homemade pasta with rich sauces.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/salad.jpg" alt="Salad">
+                    <h3>Salad</h3>
+                    <p>Fresh and healthy salads.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/steak.jpg" alt="Steak">
+                    <h3>Steak</h3>
+                    <p>Perfectly cooked steaks to your liking.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/dessert.jpg" alt="Dessert">
+                    <h3>Dessert</h3>
+                    <p>Sweet and delightful desserts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn more about our story and our team.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
